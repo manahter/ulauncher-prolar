@@ -1,0 +1,33 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "AppImages",
+  "description": "Sort AppImages",
+  "developer_name": "Nesivmi - nesidizayn.com",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0
+  },
+  "preferences": [
+    {
+      "id": "appimage",
+      "type": "keyword",
+      "name": "AppImages",
+      "description": "Sort AppImages",
+      "default_value": "a"
+    },
+    {
+      "id": "path",
+      "type": "text",
+      "name": "ProlarPath",
+      "description": "",
+      "default_value": "~/Prolar"
+    },
+    {
+      "id": "count",
+      "type": "text",
+      "name": "ItemCount",
+      "description": "",
+      "default_value": "13"
+    }
+  ]
+}
