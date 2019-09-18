@@ -23,7 +23,7 @@ class KeywordQueryEventListener(EventListener):
     def on_event(self, event, extension):
         query = event.get_argument() or str()
 
-        path = extension.preferences["path"]
+        path = extension.preferences["path"].replace("~",os.environ['HOME'])
 
         apps = {}
 
